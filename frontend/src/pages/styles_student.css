@@ -1,0 +1,249 @@
+/* styles.css */
+.student-dashboard {
+    background: #f4f6f8;
+    min-height: 100vh;
+  }
+  
+  .dashboard-container {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .dashboard-title {
+    font-weight: 700;
+    color: #1976d2;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .alert {
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+  }
+  
+  .loading-text {
+    color: #666;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .no-data-text {
+    color: #666;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .welcome-text {
+    color: #333;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .dashboard-button {
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-transform: none;
+    transition: all 0.3s ease;
+  }
+  
+  .timetable-button {
+    background-color: #1976d2;
+  }
+  
+  .timetable-button:hover {
+    background-color: #1565c0;
+  }
+  
+  .attendance-button {
+    background-color: #388e3c;
+  }
+  
+  .attendance-button:hover {
+    background-color: #2e7d32;
+  }
+  
+  .assignments-button {
+    background-color: #d32f2f;
+  }
+  
+  .assignments-button:hover {
+    background-color: #c62828;
+  }
+  
+  .section {
+    margin-bottom: 2rem;
+  }
+  
+  .section-title {
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .timetable-title {
+    color: #1976d2;
+  }
+  
+  .attendance-title {
+    color: #388e3c;
+  }
+  
+  .assignments-title {
+    color: #d32f2f;
+  }
+  
+  .calendar-title {
+    color: #1976d2;
+  }
+  
+  .paper {
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    margin-bottom: 1.5rem;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-header {
+    background-color: #1976d2;
+  }
+  
+  .table-header-cell {
+    color: #fff;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  
+  .table-row {
+    transition: background-color 0.3s ease;
+  }
+  
+  .table-row:hover {
+    background-color: #f0f4f8;
+  }
+  
+  .table-cell {
+    padding: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .present-row {
+    background-color: #e6ffe6;
+  }
+  
+  .absent-row {
+    background-color: #ffe6e6;
+  }
+  
+  .stats-paper {
+    padding: 1rem;
+  }
+  
+  .stats-text {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .calendar {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .sub-section {
+    margin-top: 1.5rem;
+  }
+  
+  .sub-section-title {
+    color: #d32f2f;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .assignment-card {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .assignment-text {
+    color: #333;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .link {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
+  .file-button {
+    margin-right: 1rem;
+    color: #1976d2;
+    border-color: #1976d2;
+  }
+  
+  .file-button:hover {
+    background-color: #e3f2fd;
+    border-color: #1565c0;
+  }
+  
+  .action-button {
+    color: #1976d2;
+    border-color: #1976d2;
+  }
+  
+  .action-button:hover {
+    background-color: #e3f2fd;
+    border-color: #1565c0;
+  }
+  
+  .submit-button {
+    background-color: #d32f2f;
+    padding: 0.75rem;
+    font-weight: 600;
+    border-radius: 8px;
+    text-transform: none;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #c62828;
+  }
+  
+  /* Calendar custom styles */
+  .holiday {
+    background-color: #ffebee !important;
+    border-radius: 50%;
+  }
+  
+  .event {
+    background-color: #e8f5e9 !important;
+    border-radius: 50%;
+  }
+  
+  .holiday p, .event p {
+    font-size: 0.75rem;
+    color: #333;
+    margin: 0;
+    text-align: center;
+  }
